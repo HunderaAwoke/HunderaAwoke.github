@@ -84,6 +84,9 @@ p {
 .sidebar ul {
 	list-style: none;
 	padding: 0;
+	background: #273e47;
+	margin: 0;
+	border: 25%;
 }
 .main-container {
 	background-color: var(--mainColor);
@@ -101,8 +104,16 @@ p {
 }
 .intro-wrapper img {
 	width: 300px;
-	padding: 20px;
+	margin: 20px;
+	box-shadow: 10px 9px 10px -6px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: 10px 9px 10px -6px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 9px 10px -6px rgba(0, 0, 0, 0.75);
 }
-.intro-wrapper h1 ul li{
-	font-size: 20px;
+.intro-wrapper h1 ul {
+	list-style: none;
+}
+.intro-wrapper h1 ul li {
+	font-size: 25px;
+	color: #098b71;
+	border-right: 2px solid #fe8472;
 }
