@@ -72,7 +72,11 @@ p {
 	left: 90vw;
 	top: 50vh;
 	background-color: white;
+	cursor: pointer;
 	z-index: 1;
+}
+.sidebar:hover {
+	background-color: rgba(255, 255, 255, 0.349);
 }
 #github {
 	width: 50px;
@@ -92,6 +96,8 @@ p {
 	position: absolute;
 	top: 50px;
 	display: grid;
+	grid-template-rows: repeat(4, 20vh);
+	row-gap: 300px;
 	margin: 100px 20px;
 	width: 98%;
 	height: 100vh;
@@ -115,4 +121,37 @@ p {
 	font-size: 25px;
 	color: #098b71;
 	border-right: 2px solid #fe8472;
+}
+.skills-wrapper {
+	background-color: #2d82b7;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	text-align: center;
+	justify-content: space-between;
+}
+.skills-wrapper .texts {
+	padding: 0 150px;
+}
+.skills-wrapper .texts ul {
+	list-style: none;
+}
+.skills-wrapper .texts ul li {
+	margin-right: 0 5px;
+	box-sizing: border-box;
+	border-right: 3px solid #273e47;
+}
+
+.educationalbg-wrapper {
+	background-color: #2d82b7;
+	height: 200px;
+}
+.contact-wrapper {
+	background-color: #2d82b7;
+	height: 200px;
+}
+.final-part {
+	width: 100%;
+	height: 50vh;
+	background: linear-gradient( #c6d4ffc0, #032aeb;
 }
