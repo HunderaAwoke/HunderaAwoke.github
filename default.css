@@ -48,7 +48,6 @@ p {
 .navbar ul li {
 	display: flex;
 	padding: 10px 10px;
-	border-radius: 4px;
 	transition: background 0.4s;
 	align-items: center;
 	justify-content: center;
@@ -63,7 +62,7 @@ p {
 }
 .navbar ul li:hover {
 	background-color: #fe8472;
-	color: black;
+	border-top: 2px solid #13f694;
 }
 .sidebar {
 	width: auto;
