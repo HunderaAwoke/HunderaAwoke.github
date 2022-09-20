@@ -1,9 +1,9 @@
 :root {
-	--bgColor: #273E47;
+	--bgColor: #273e47;
 	--borderColor: gray;
 	--btnBorderColor: black;
 	--textColor: black;
-	--mainColor: #273E47;
+	--mainColor: #273e47;
 	--mainColor2: rgb(65, 60, 60);
 }
 body {
@@ -26,15 +26,16 @@ p {
 	left: 0;
 	position: fixed;
 	width: 100%;
-	background: #FE654F;
-	color: #E5D0E3;height: 50px;
+	background: #fe654f;
+	color: #e5d0e3;
+	height: 50px;
 	text-align: center;
-  z-index: 1;
+	z-index: 1;
 }
-.navbar.active{
-	background-color:#FE654F;
+.navbar.active {
+	background-color: #fe654f;
 }
-.navbar >h2 {
+.navbar > h2 {
 	padding-left: 10px;
 	text-align: center;
 }
@@ -58,10 +59,10 @@ p {
 	font-weight: bold;
 	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
 		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-	color: #E5D0E3;
+	color: #e5d0e3;
 }
 .navbar ul li:hover {
-	background-color: rgb(255, 102, 0);
+	background-color: #fe8472;
 	color: black;
 }
 .sidebar {
@@ -73,15 +74,14 @@ p {
 	top: 50vh;
 	background-color: white;
 	z-index: 1;
-
 }
-#github{
+#github {
 	width: 50px;
 }
-#linkedin{
+#linkedin {
 	width: 50px;
 }
-.sidebar ul{
+.sidebar ul {
 	list-style: none;
 	padding: 0;
 }
@@ -94,4 +94,15 @@ p {
 	width: 98%;
 	height: 100vh;
 	margin: 0;
+}
+.intro-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.intro-wrapper img {
+	width: 300px;
+	padding: 20px;
+}
+.intro-wrapper h1 ul li{
+	font-size: 20px;
 }
