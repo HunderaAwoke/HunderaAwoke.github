@@ -12,6 +12,11 @@ body {
 	background: url(./images/Firefox_wallpaper.png);
 }
 
+a{
+	text-decoration: none;
+	color: #000000;
+	margin:20px 0;
+}
 h1,
 h2,
 h3,
@@ -149,7 +154,15 @@ p {
 .contact-wrapper {
 	background-color: #2d82b7;
 	height: 200px;
+	display: flexbox;
+	color: #000000;
+	font-weight: 600;
 }
+.contact-wrapper h1{
+	margin: 5px 20px;
+	color: white;
+}
+
 .final-part {
 	width: 100%;
 	height: 50vh;
