@@ -9,6 +9,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	background: url(./images/Firefox_wallpaper.png);
 }
 
 h1,
@@ -96,7 +97,7 @@ p {
 	top: 50px;
 	display: grid;
 	grid-template-rows: repeat(4, 20vh);
-	row-gap: 300px;
+	row-gap: 250px;
 	margin: 100px 20px;
 	width: 98%;
 	height: 100vh;
